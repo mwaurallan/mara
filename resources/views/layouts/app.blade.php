@@ -59,7 +59,6 @@
                 <input type="hidden" id="__precision" value="{{config('constants.currency_precision', 2)}}">
                 <input type="hidden" id="__quantity_precision" value="{{config('constants.quantity_precision', 2)}}">
                 <!-- End of currency related field-->
-
                 @if (session('status'))
                     <input type="hidden" id="status_span" data-status="{{ session('status.success') }}" data-msg="{{ session('status.msg') }}">
                 @endif
