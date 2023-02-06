@@ -90,6 +90,7 @@
                     <td>&nbsp;</td>
                 @endif
                 <td>{{ $modifier->quantity }}</td>
+
                 <td>
                     <span class="display_currency" data-currency_symbol="true">{{ $modifier->unit_price }}</span>
                 </td>

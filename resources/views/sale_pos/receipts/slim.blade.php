@@ -426,7 +426,8 @@
 						<tr>
 							<td class="width-50 text-center">
 {{--								{!! $receipt_details->total_due_label !!}--}}
-								<p><h5>Mpesa Till:8012484</h5></p>
+								<p><h5>Paybill:247247</h5></p>
+								<p><h5>A/C:0740413115</h5></p>
 							</td>
 							<td class="width-50 text-right">
 {{--								{{$receipt_details->total_due}}--}}
